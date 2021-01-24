@@ -72,6 +72,7 @@ function! s:MapMeta() abort
   cnoremap        <M-d> <S-Right><C-W>
   noremap!        <M-n> <Down>
   noremap!        <M-p> <Up>
+  noremap!        <M-e> <Up>
   noremap!        <M-BS> <C-W>
   noremap!        <M-C-h> <C-W>
 endfunction
