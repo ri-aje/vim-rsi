@@ -87,12 +87,14 @@ else
   silent! exe "set <F33>=\<Esc>p"
   silent! exe "set <F34>=\<Esc>\<C-?>"
   silent! exe "set <F35>=\<Esc>\<C-H>"
+  silent! exe "set <F36>=\<Esc>e"
   noremap!        <F29> <S-Left>
   noremap!        <F30> <S-Right>
   noremap!        <F31> <C-O>dw
   cnoremap        <F31> <S-Right><C-W>
   noremap!        <F32> <Down>
   noremap!        <F33> <Up>
+  noremap!        <F36> <Up>
   noremap!        <F34> <C-W>
   noremap!        <F35> <C-W>
   augroup rsi_gui
